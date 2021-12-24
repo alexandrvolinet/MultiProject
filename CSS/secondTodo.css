@@ -134,3 +134,15 @@ select {
 .complete-btn:hover, .trash-btn:hover {
   box-shadow: inset 20px 20px 20px #0000008c;
 }
+.trash-btn:hover {
+  animation: rotate 0.2s linear;
+}
+.complete-btn:hover {
+  animation: rotate 0.2s linear;
+}
+@keyframes rotate {
+
+  100%{
+      transform: rotate(-360deg);
+  }
+}
